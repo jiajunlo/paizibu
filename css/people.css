@@ -1,0 +1,199 @@
+﻿@charset "utf-8";
+/*
+* author: Jun
+*/
+
+#container {
+	width: 100%;
+	height: auto;
+	min-height: 500px;
+	background-color: #FFFFFF;
+	border: 1px solid #E8E8E8;
+}
+
+#cover {
+	width: 100%;
+	height: 300px;
+}
+
+#user-info {
+	margin-top: -103px;
+	width: 100%;
+	height: auto;
+}
+
+.user-info-item {
+	float: left;
+}
+
+#user-avatar {
+	margin-left: 50px;
+	width: 206px;
+	height: 206px;
+	border: none;
+	background-color: #FFFFFF;
+	border-radius: 103px;
+}
+
+#user-avatar img {
+	margin: 3px;
+	width: 200px;
+	height: 200px;
+	border: none;
+	border-radius: 100px;
+}
+
+#user-name {
+	margin-top: 180px;
+}
+
+#user-name h4 {
+	font-size: 20px;
+}
+
+#note-list-wrapper {
+	margin-left: 152px;
+	margin-bottom: 35px;
+	width: 650px;
+	height: auto;
+}
+
+#note-list {
+	width: 100%;
+	padding-top: 30px;
+	height: auto;
+	min-height: 100px;
+	border-left: 5px solid #E6E6FA;
+}
+
+#note-list .note-item {
+	margin-bottom: 20px;
+	width: 100%;
+	height: auto;
+	min-height: 100px;
+}
+
+#note-list .note-item .note-date {
+	position: relative;
+	top: 52px;
+	left: -33px;
+	width: 60px;
+	height: 60px;
+	color: #FFFFFF;
+	background-color: #66CDAA;
+	border-radius: 30px;
+	-webkit-box-shadow: 0px 0px 1px #CFCFCF;
+	   -moz-box-shadow: 0px 0px 1px #CFCFCF;
+	        box-shadow: 0px 0px 1px #CFCFCF;
+	text-align: center;
+	font-size: 12px;
+}
+
+#note-list .note-item .note-day {
+	padding-top: 8px;
+	font-size: 24px;
+}
+
+#note-list .note-item .note-main {
+	padding: 15px;
+	margin-left: 50px;
+	width: 520px;
+	height: auto;
+	border: 1px solid #CFCFCF;
+	border-radius: 2px; 
+}
+
+#note-list .note-item .note-main .note-link {
+	float: right;
+	position: relative;
+	top: -16px;
+	right: -16px;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #CFCFCF;
+	border-top: none;
+	border-right: none;
+	visibility: hidden;
+}
+
+#note-list .note-item .note-main .note-link a {
+	display: block;
+	width: 0;
+	height: 0;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #FFFFFF #FFFFFF #CFCFCF #CFCFCF; 
+}
+
+#note-list .note-item .note-main .note-link a:hover {
+	border-color: #FFFFFF #FFFFFF #66CDAA #66CDAA; 
+}
+
+#note-list .note-item .note-main .trangle-big {
+	position: relative;
+	left: -31px;
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-right: 16px solid #CFCFCF;
+}
+
+#note-list .note-item .note-main .trangle-small {
+	position: relative;
+	top: -7px;
+	right: -2px;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-right: 14px solid #FFFFFF;
+}
+
+#note-list .note-item .note-main .note-title {
+	margin-top: -15px;
+	font-size: 14px;
+}
+
+#note-list .note-item .note-main .note-content {
+	margin-top: 10px;
+	font-size: 13px;
+	line-height: 150%;
+}
+
+#note-list .note-item .note-main .first-note {
+	margin-top: -15px;
+	text-align: center;
+}
+
+#note-list .note-item .note-main .first-note {
+	margin-top: -15px;
+	text-align: center;
+}
+
+#load-more {
+	width: 552px;
+	height: auto;
+	margin-left: 55px;
+	text-align: center;
+}
+
+#load-more a,
+#load-more span  {
+	display: block;
+	padding: 15px;
+	width: 522px;
+	height: auto;
+	text-align: center;
+	background-color: #F5F5F5;
+}
+
+#load-more span {
+	color: #828282;
+	background-color: #FFFFFF;
+}
+
+#load-more a:hover {
+	text-decoration: none;
+	background-color: #E6E6FA;
+}

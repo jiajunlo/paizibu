@@ -1,0 +1,153 @@
+@charset "utf-8";
+/*
+* author: Jun
+*/
+
+#settings {
+	width: 100%;
+	height: auto;
+	background-color: #FFFFFF;
+	border: 1px solid #E8E8E8;
+}
+
+#settings-nav {
+	width: 100%;
+	height: auto;
+	border-top: 3px solid #66CDAA;
+}
+
+#settings-nav ul {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+#settings-nav ul li {
+	float: left;
+	border-right: 1px solid #E8E8E8;
+}
+
+#settings-nav ul li a {
+	display: block;
+	padding: 15px 30px;
+	font-size: 15px;
+	color: #9C9C9C;
+}
+
+#settings-nav ul li a:hover {
+	text-decoration: none;
+	color: #4F4F4F;
+}
+
+#settings-nav ul li a.current-setting-link {
+	color: #4F4F4F;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+#settings-nav ul li a.current-setting-link img {
+	background-color: #66CDAA;
+}
+
+#settings-nav ul li a img {
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+	background-color: #CFCFCF;
+}
+
+#settings-container {
+	padding: 30px;
+	margin-top: -1px;
+	width: 900px;
+	height: auto;
+	border-top: 1px solid #E8E8E8;
+}
+
+.settings-form {
+	margin: 20px 0;
+	width: 340px;
+	height: auto;
+}
+
+.settings-form p {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin: 10px 0;
+}
+
+.settings-form p span {
+	display: block;
+	float: left;
+	width: 80px;
+	margin-top: 8px;
+	font-size: 13px;
+}
+
+.settings-form p input[type="text"], 
+.settings-form p input[type="password"] {
+	display: block;
+	float: left;
+	width: 220px;
+	height: 20px;
+	font-size: 14px;
+}
+
+.settings-form .submit-btn {
+	float: left;
+	margin-left: 80px;
+	padding: 5px 15px;
+}
+
+#profile-form p {
+	float: left;
+}
+
+#settings-profile .settings-form p span {
+	width: 45px;
+}
+
+#settings-profile .settings-form .submit-btn {
+	margin-left: 45px;
+}
+
+#avatar-img {
+	border: 1px solid #E8E8E8;
+	width: 200px;
+	height: 200px;
+}
+
+#avatar-form p {
+	width: 200px;
+	height: auto;
+}
+
+#avatar-form input[type="file"]{
+	width: 200px;
+}
+
+#avatar-form .submit-btn, 
+#cover-form .submit-btn {
+	margin-left: 0;
+	float: left;
+}
+
+#delete-avatar-link, 
+#delete-cover-link {
+	float: right;
+	margin-top: 10px;
+}
+
+#cover-form input[type="file"] {
+	width: 340px;
+}
+
+#cover-form p {
+	width: 340px;
+	height: auto;
+}
+
+#cover-img {
+	width: 340px;
+	height: auto;
+}

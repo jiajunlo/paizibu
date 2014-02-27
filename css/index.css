@@ -1,0 +1,57 @@
+﻿@charset "utf-8";
+/*
+* author: Jun
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+::-moz-selection {
+	color: #FFFFFF;
+	background-color: #66CDAA;
+}
+
+::selection {
+	color: #FFFFFF;
+	background-color: #66CDAA;
+}
+
+body {
+	font: 13px Helvetica,Arial,Sans-serif;
+	background-color: #FFFFFF;
+	color: #363636;
+}
+
+#wrapper {
+	width: 100%;
+	height: auto;
+}
+
+#main {
+	margin: 150px auto 0 auto;
+	width: 960px;
+	height: auto;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#main-header h1 {
+	font-size: 24px;
+}
+
+#main-header h1 img {
+	width: 50px;
+	height: auto;
+}
+
+#footer {
+	font-size: 13px;
+	position: absolute;
+	bottom: 10px; 
+	left: 50%;
+	margin-left: 500px;
+}

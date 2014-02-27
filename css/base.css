@@ -1,0 +1,299 @@
+﻿@charset "utf-8";
+/*
+* author: Jun
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow-y: scroll; 
+}
+
+a {
+	color: #4F4F4F;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: 0;
+}
+
+h3 {
+	font-size: 15px;
+	font-weight: normal;
+}
+
+input, select, textarea {
+	padding: 5px;
+	color: #363636;
+	font-family: Helvetica,Arial,Sans-serif;
+	border: 1px solid #CFCFCF;
+	border-radius: 3px;
+}
+
+input[type="file"] {
+	border: none;
+}
+
+input:hover, 
+select:hover, 
+textarea:hover {
+	border-color: #B5B5B5;
+}
+
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+select:focus, 
+textarea:focus {
+	-webkit-box-shadow: 0px 0px 5px #1E90FF;
+	   -moz-box-shadow: 0px 0px 5px #1E90FF;
+	        box-shadow: 0px 0px 5px #1E90FF;
+	outline: none;
+	border: 1px solid #E8E8E8;
+}
+
+li {
+	list-style: none;
+}
+
+option {
+	padding: 0 3px;
+}
+
+pre {
+	word-wrap: break-word;
+}
+
+small {
+	color: #828282;
+}
+
+::-moz-selection {
+	color: #FFFFFF;
+	background-color: #66CDAA;
+}
+
+::selection {
+	color: #FFFFFF;
+	background-color: #66CDAA;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.clearfix:before, 
+.clearfix:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+input.disabled-input {
+	background-color: #F5F5F5;
+}
+
+input.disabled-input:hover {
+	border-color: #CFCFCF;
+}
+
+input.error-input, 
+textarea.error-input {
+	-webkit-box-shadow: 0px 0px 5px #EE0000;
+	   -moz-box-shadow: 0px 0px 5px #EE0000;
+	        box-shadow: 0px 0px 5px #EE0000;
+}
+
+.submit-btn {
+	background-color: #66CDAA;
+	border: 1px solid #3DA087;
+	color: #FFFFFF;
+	text-align: center;
+	cursor: pointer;
+}
+
+.submit-btn:hover {
+	border: 1px solid #3DA087;
+}
+
+.submit-btn:active {
+	background-color: #1abc9c;
+}
+
+.error-hint {
+	position: absolute;
+	color: #EE3B3B;
+	font-size: 12px;
+}
+
+.success-hint {
+	position: absolute;
+	padding: 10px 0;
+	width: 100%;
+	height: auto;
+	color: #FFFFFF;
+	background-color: #66CDAA;
+	font-size: 14px;
+	text-align: center;
+	z-index: -1;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height:auto;
+	font: 12px Helvetica,Arial,Sans-serif;
+	background-color: #F0F0F0;
+	color: #363636;
+}
+
+#header {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	background-color: #363636;
+	color: #CFCFCF;
+	-webkit-box-shadow: 0px 0px 5px #1C1C1C;
+	   -moz-box-shadow: 0px 0px 5px #1C1C1C;
+		    box-shadow: 0px 0px 5px #1C1C1C;
+}
+
+#header a {
+	color: #E8E8E8;
+}
+
+#header a:hover{
+	text-decoration: none;
+}
+
+#nav {
+	margin: 0 auto;
+	width: 960px;
+	height: auto;
+}
+
+#nav-logo {
+	position: absolute;
+	top: 6px;
+	left: 50%;
+	margin-left: -15px;
+	width: 30px;
+	height: 30px;
+}
+
+#nav-logo img {
+	width: 25px;
+	height: auto;
+}
+
+#nav-menu {
+	float: right;
+}
+
+#nav-menu li.nav-menu-item {
+	display: block;
+	float: left;
+}
+
+#nav-menu li.nav-menu-item .nav-menu-link {
+	display: block;
+	padding: 10px 10px 5px 10px;
+	cursor: pointer;
+}
+
+#nav-menu li.nav-menu-item img {
+	width: 20px;
+	height: 20px;
+	filter: alpha(Opacity=80);
+	-moz-opacity: 0.8;
+		 opacity: 0.8;
+}
+
+#nav-add a:hover {
+	color: #FFFFFF; 
+	background-color: #1C1C1C;
+}
+
+#nav-add a:hover img {
+	filter: alpha(Opacity=100);
+	-moz-opacity: 1;
+		 opacity: 1;
+}
+
+#nav-profile-more {
+	position: absolute;
+	top:38px;
+	left:50%;
+	margin-left: 389px;
+	padding: 10px 0;
+	width: 90px;
+	visibility: hidden;
+	border: 1px solid #CFCFCF;
+	border-radius: 2px;
+	background-color: #FFFAFA;
+}
+
+#nav-profile-more li {
+	width: 90px;
+}
+
+#nav-profile-more li a {
+	display: block;
+	color: #363636;
+	width: 50px;
+	padding: 5px 20px;
+	white-space: nowrap;
+}
+
+#nav-profile-more li a:hover {
+	background-color: #E8E8E8; 
+}
+
+#main {
+	margin: 45px auto 20px auto;
+	width: 960px;
+	height: auto;
+	min-height: 525px;
+	color: #4F4F4F;
+}
+
+#footer {
+	clear: both;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #CFCFCF;
+}
+
+#footer-nav {
+	margin: 0 auto;
+	width: 960px;
+	height: auto;
+	color: #4F4F4F;
+}
+
+
+#footer-nav ul {
+	float: right;
+	padding: 10px 0;
+}
+
+#footer-nav ul li {
+	display: block;
+	float: left;
+	margin-left: 20px;
+}

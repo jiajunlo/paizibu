@@ -1,0 +1,92 @@
+﻿@charset "utf-8";
+/*
+* author: Jun
+*/
+
+#sign-wrapper {
+	width: 100%;
+	height: auto;
+}
+
+.sign {
+	padding: 10px;
+	margin: 80px auto 0 auto;
+	width: 250px;
+	height: auto;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo a img {
+	width: 75px;
+	height: 75px;
+}
+
+.sign-form {
+	margin: 20px auto;
+	width: 250px;
+	height: auto;
+	color: #696969;
+}
+
+.sign-form label {
+	font-size: 12px;
+}
+
+.sign-form input{
+	font-size: 18px;
+	margin: 10px 0;
+	border-radius: 5px;
+}
+
+.sign-form input[type="text"], 
+.sign-form input[type="password"] {
+	width: 240px;
+	background-color: #FFFFF0;
+	color: #4F4F4F;
+	border: 1px solid #E8E8E8;
+}
+
+.sign-form .submit-btn {
+	width: 250px;
+	height: 35px;
+}
+
+.sign-form a {
+	color: #363636;
+	font-size: 12px;
+}
+
+.sign-form a.rp-link {
+	margin-top: 10px;
+	float: right;
+}
+
+.sign-form .other {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.password-success-hint,
+.params-error-hint {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+.password-success-hint {
+	background-color: #66CDAA;
+}
+
+.params-error-hint {
+	background-color: #EE6A50;
+}

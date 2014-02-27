@@ -1,0 +1,148 @@
+@charset "utf-8";
+/*
+* author: Jun
+*/
+
+#note {
+	width: 100%;
+	height: auto;
+	background-color: #FFFFFF;
+	border: 1px solid #E8E8E8;
+}
+
+#note-container {
+	width: 100%;
+	height: auto;
+	border-top: 3px solid #66CDAA;
+}
+
+#add-note {
+	padding: 30px;
+	width: 900px;
+	height: auto;
+}
+
+#note-form {
+	margin-top: -17px;
+	width: 100%;
+	height: auto;
+}
+
+#note-form span {
+	clear: both;
+	float: left;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+#note-form input[type="text"],
+#note-form textarea,
+#note-form select {
+	clear: both;
+	float: left;
+	margin: 5px 0 15px 0;
+	font-size: 13px;
+}
+
+#note-form input[type="text"],
+#note-form textarea {
+	width: 890px;
+}
+
+#note-form select {
+	width: 90px;
+	padding: 4px 5px;
+}
+
+#note-form textarea {
+	max-width: 890px;
+	height: auto;
+	min-height: 300px;
+}
+
+#note-form .submit-btn {
+	float: right;
+	padding: 5px 15px;
+}
+
+#note-form input.place {
+	width: 80px;
+	height: auto;
+}
+
+#note-form .short-input {
+	float: right;
+	margin-left: 55px;
+}
+
+
+
+#post-note {
+	padding: 30px;
+	width: 900px;
+	height: auto;
+}
+
+#post-note .not-exist {
+	font-size: 18px;
+	text-align: center;
+	margin: 130px 0;
+}
+
+#post-note .not-exist {
+	font-size: 18px;
+	text-align: center;
+	margin: 130px 0;
+}
+
+#post-note-info {
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #E8E8E8; 
+}
+
+#post-note-title {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#post-note-extra {
+	float: right;
+	margin-top: 5px;
+}
+
+#post-note-extra h4 {
+	float: left;
+	font-weight: normal;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+#post-note-content {
+	margin: 20px 0;
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+	font-size: 13px;
+	line-height: 160%;
+	word-wrap: break-word;
+}
+
+#post-note-time {
+	float: left;
+}
+
+#delete-note-link {
+	display: block;
+	float: left;
+	margin-left: 15px;
+}
+
+#prev-next-link {
+	float: right;
+}
+
+#prev-next-link a {
+	margin-left: 10px;
+}
